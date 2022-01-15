@@ -1,0 +1,44 @@
+@use '../../../assets/variables' as variables;
+
+.form-floating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 60%;
+    margin-top: 15rem;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    font-size: 1.5rem;
+    padding:0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: variables.$primary-color;
+}
+
+.form-control ~ label {
+    top: 0.5rem;
+}
+
+.form-control:focus ~ label {
+    transform: scale(0.85) translateY(-1.5rem) translateX(-0.8rem);
+}
+
+.label-control {
+    width: 60%;
+    margin-top: 15rem;
+    margin-left: 20%;
+    opacity: 0.65;
+}
+
+.btn {
+    background-color: variables.$indicator-color;
+    width: 60%;
+    margin-left: 20%;
+}

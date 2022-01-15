@@ -1,0 +1,25 @@
+<div class="footer-body">
+    <div class="footer-navigation">
+        <ul>
+            <li class="menu-item active" #menu1 (click)="activeLink(menu1)">
+                <a>
+                    <span class="menu-item-icon"><i class="bi bi-search"></i></span>
+                    <span class="menu-item-text">{{'menu-option-search' | translate}}</span>
+                </a>
+            </li>
+            <li class="menu-item" #menu2 (click)="activeLink(menu2)">
+                <a>
+                    <span class="menu-item-icon"><i class="bi bi-signpost"></i></span>
+                    <span class="menu-item-text">{{'menu-option-my-routes' | translate}}</span>
+                </a>
+            </li>
+            <li class="menu-item" #menu3 (click)="activeLink(menu3)">
+                <a>
+                    <span class="menu-item-icon"><i class="bi bi-layout-text-sidebar-reverse"></i></span>
+                    <span class="menu-item-text">{{'menu-option-plans' | translate}}</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+</div>
