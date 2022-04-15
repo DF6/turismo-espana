@@ -12,6 +12,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { SearchComponent } from './pages/search/search.component';
+import { MapComponent } from './map/map.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -23,7 +24,8 @@ export function createTranslateLoader(http: HttpClient) {
     FooterMenuComponent,
     SearchBarComponent,
     ResultsListComponent,
-    SearchComponent
+    SearchComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
