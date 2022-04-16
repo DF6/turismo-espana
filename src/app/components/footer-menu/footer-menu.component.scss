@@ -29,7 +29,7 @@
 .footer-navigation ul li {
     position: relative;
     list-style: none;
-    width: 100%;
+    width: 33%;
     height: 4rem;
     z-index: 1;
 }
@@ -122,7 +122,7 @@
         box-shadow: 0rem -0.625rem 0 0 variables.$white;
     }
 }
-
+/*
 .footer-navigation ul li:nth-child(1).active ~ .indicator {
     transform: translateX(calc((30vh) * 0));
 }
@@ -133,4 +133,4 @@
 
 .footer-navigation ul li:nth-child(3).active ~ .indicator {
     transform: translateX(calc((20vh) * 2));
-}
+}*/
